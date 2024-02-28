@@ -23,3 +23,8 @@ else if (randomNumber1 >  randomNumber2) {
 else {
     result.innerHTML="Player 2 Wins! 🚩"
 }
+
+// Button to reroll
+document.getElementById("rollButton").addEventListener("click", function() {
+    location.reload();
+});
